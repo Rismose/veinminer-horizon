@@ -1,4 +1,4 @@
-id = "veinminer"
+id = "veinminer_autosmelt"
 name = "Veinminer & Autosmelt"
 version = "3.0.0"
 description = "Mine a whole ore vein at once with the Veinmine enchantment, and smelt raw iron, gold and copper as you mine with the Smelting enchantment."

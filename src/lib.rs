@@ -17,7 +17,7 @@ use mod_api::{
     RegisterConfigsEvent, Registrar, RegistrationContext, ServerHost, SoundSource, Tag,
 };
 
-const MOD_ID: &str = "veinminer";
+const MOD_ID: &str = "veinminer_autosmelt";
 
 const DEFAULT_CONFIG: &str = r#"# Veinminer settings (server-wide).
 
@@ -83,8 +83,8 @@ const SMELTS: &[(&str, &str)] = &[
     ("minecraft:raw_iron_block", "minecraft:iron_block"),
 ];
 
-const VEINMINE: &str = "veinminer:veinminer";
-const SMELTING: &str = "veinminer:smelting";
+const VEINMINE: &str = "veinminer_autosmelt:veinminer";
+const SMELTING: &str = "veinminer_autosmelt:smelting";
 
 const PICKAXES: &[&str] = &[
     "wooden_pickaxe",
