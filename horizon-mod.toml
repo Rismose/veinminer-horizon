@@ -1,0 +1,13 @@
+id = "veinminer"
+name = "Veinminer & Autosmelt"
+version = "3.0.0"
+description = "Mine a whole ore vein at once with the Veinmine enchantment, and smelt raw iron, gold and copper as you mine with the Smelting enchantment."
+authors = ["Rismose"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "6d765e0ea3207d5dddeee87b0c64e09222767993"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
